@@ -8,8 +8,8 @@ function exbirTextoNaTela(tag, texto) {
 }
 
 function exbirMensagemInicial() {
-  exbirTextoNaTela("h1", "jogo do número secreto");
-  exbirTextoNaTela("p", "Escolha um numero entre 1 e 10");
+  exbirTextoNaTela("h1", "Jogo do número secreto");
+  exbirTextoNaTela("p", "Escolha um número entre 1 e 10");
 }
 exbirMensagemInicial();
 function verificarChute() {
